@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 420px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 5px black;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.title h3:nth-child(2) {
+    color: gray;
+    font-weight: 400;
+}
+
+.card-picture {
+    width: 100px;
+    height: 100px;
+}
+
+.card-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.card-1 svg {
+    width: 20px;
+    height: 20px;
+    fill: gray;
+}
+
+.card-1 h4 {
+    font-weight: 400;
+    color: black;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter button {
+    background-color: skyblue;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container2 {
+    width: 320px;
+    max-height: 700px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 5px black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bill {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container2 button {
+    width: 90%;
+    padding: 10px 0px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.promo {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+.promo input {
+    padding: 10px;
+}
+
+.price,
+.price2,
+.price3,
+.price4 {
+    width: 60px;
+    overflow: hidden;
+}
+
+.subtotal,.tax,.shipping,.total-amt {
+    width: 60px;
+    overflow: hidden;
+}
